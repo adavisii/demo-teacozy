@@ -4,13 +4,14 @@
 	box-sizing: border-box;
 }
 
-body {
+div.container {
 	font-size: 22px;
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: black;
 	color: seashell;
 	opacity: 0.9;
-	text-align: center;
+	margin: 0 auto;
+	width: 1268px;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 	border-bottom: 1px solid seashell;
 }
 
-img {
+.logo-img-nav img {
 	height: 50px;
 	margin: 10px;
 }
@@ -33,8 +34,31 @@ ul li {
 	list-style: none;
 	display: inline-block;
 	margin: 0 5px;
+	text-decoration: underline;
+	color: seashell;
 }
 
-a {
-	color: seashell;
+.our-mission {
+	margin: 0 auto;
+	background-color: black;
+	min-height: 700px;
+	width: 1200px;
+	text-align: center;
+	background-image: url('../html/images/img-mission-background.jpg');
+	display: flex;
+	align-items: center;
+}
+
+.headline-pos {
+	background-color: black;
+	width: 1200px;
+}
+
+.headline-pos h2 {
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+.headline-pos h4 {
+	padding-bottom: 4px;
 }
