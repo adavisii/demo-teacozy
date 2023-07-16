@@ -8,15 +8,21 @@ div.container {
 	font-size: 22px;
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: black;
-	color: seashell;
+	color: rgb(255, 245, 238);
 	opacity: 0.9;
 	margin: 0 auto;
 	width: 1268px;
+	position: relative;
 }
 
 header {
 	height: 70px;
+	width: 1268px;
 	border-bottom: 1px solid seashell;
+	position: fixed;
+	top: 0;
+	background-color: black;
+	z-index: 1;
 }
 
 .logo-img-nav img {
@@ -35,15 +41,12 @@ ul li {
 	display: inline-block;
 	margin: 0 5px;
 	text-decoration: underline;
-	color: seashell;
 }
 
 .our-mission {
-	margin: 0 auto;
-	background-color: black;
 	min-height: 700px;
 	width: 1200px;
-	text-align: center;
+	margin: 20px auto 0;
 	background-image: url('../html/images/img-mission-background.jpg');
 	display: flex;
 	align-items: center;
@@ -52,6 +55,7 @@ ul li {
 .headline-pos {
 	background-color: black;
 	width: 1200px;
+	text-align: center;
 }
 
 .headline-pos h2 {
@@ -61,4 +65,130 @@ ul li {
 
 .headline-pos h4 {
 	padding-bottom: 4px;
+}
+
+.tea-of-month-section {
+	width: 1000px;
+	margin: 50px auto;
+}
+
+.month-headline {
+	text-align: center;
+}
+
+.month-headline h2 {
+	margin-bottom: 10px;
+}
+
+.tea-flavor-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tea-flavor-section h4 {
+	text-align: center;
+}
+
+.flavor-section {
+	margin: 10px auto;
+}
+
+.flavor-section h4 {
+	margin-top: 10px;
+}
+
+.items-url-pos {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+.berry-blitz {
+	background-image: url('../html/images/img-berryblitz.jpg');
+}
+
+.spiced-rum {
+	background-image: url('../html/images/img-spiced-rum.jpg');
+}
+
+.seasonal-donuts {
+	background-image: url('../html/images/img-donut.jpg');
+}
+
+.myrtle-tea {
+	background-image: url('../html/images/img-myrtle-ave.jpg');
+}
+
+.bedford-tea {
+	background-image: url('../html/images/img-bedford-bizarre.jpg');
+}
+
+.bed-pos {
+	position: relative;
+	right: 82px;
+}
+
+.myrtle-pos {
+	position: relative;
+	left: 82px;
+}
+
+section.locations-cont {
+	width: 1200px;
+	height: 500px;
+	background-image: url('../html/images/img-locations-background.jpg');
+	background-size: cover;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.locations-cont h2 {
+	padding-top: 75px;
+	margin-bottom: 15px;
+}
+
+.locations-cards-pos {
+	width: 300px;
+	margin-right: 40px;
+	background-color: black;
+}
+
+.locations-cards-pos h3 {
+	padding-top: 20px;
+}
+
+.locations-cards-pos p {
+	padding-top: 35px;
+}
+
+.locations-cards-pos p:nth-last-child(1) {
+	margin-bottom: 30px;
+}
+
+.locations-cards-cont {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	height: 200px;
+}
+
+footer div {
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer .contact-email-pos {
+	padding-top: 40px;
+}
+
+footer .contact-tel-pos {
+	padding-top: 20px;
+}
+
+footer .copyright-pos {
+	margin-left: 20px;
+	text-align: left;
 }
